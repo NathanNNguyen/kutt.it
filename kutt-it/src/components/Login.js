@@ -52,7 +52,7 @@ const useStyles = makeStyles((theme) => ({
   }
 }));
 
-export default function SignIn() {
+export default function Login() {
   const classes = useStyles();
 
   return (
@@ -100,7 +100,7 @@ export default function SignIn() {
             color="primary"
             className={classes.submit}
           >
-            Sign In
+            Log in
           </Button>
           <Grid container>
             <Grid item xs>

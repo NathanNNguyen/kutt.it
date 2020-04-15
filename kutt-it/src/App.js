@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 import Home from './components/Home.js';
 import Login from './components/Login.js';
-import SignUp from './components/SignUp.js';
+import Register from './components/Register.js';
 import Navigation from './components/Navigation.js';
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
 
           <Route exact path='/signup'>
             <Navigation />
-            <SignUp />
+            <Register />
           </Route>
 
         </Switch>
